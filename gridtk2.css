@@ -1,0 +1,346 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "PT Serif", serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 100px; */
+    background-color: rgb(110, 205, 242);
+    height: 60px;
+    text-align: left;
+    /* margin: 0px 500px 0px ; */
+}
+.logo{
+    width: 120px;
+}
+.list-items{
+     display: inline;
+     list-style: none;
+     margin: 0px 150px;
+     align-items: center;
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.links:hover{
+    text-decoration: underline;
+    color: red;
+}
+.rows{
+    width: 100%;
+    height: 300px;
+    background-color:white ;
+    align-items: center;
+}
+#logo{
+    width: 300px;
+    align-items: center;
+    display: inline;
+    margin: 0px 770px;
+}
+.about{
+    margin: 20px -100px 0px 10px;
+}
+
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(2,0.8fr);
+    margin-top: 50px ;
+    align-items: center;
+    margin-left: -150px;
+}
+.section-head{
+    align-items: center;
+}
+.main-head{
+    font-size: 50px;
+    text-align: center;
+}
+.quote{
+    font-size: 20px;
+    color: chocolate;
+    text-align: center;
+}
+.para{
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+.about-img{
+   width: 40%;
+}
+.main-img{
+    height: 600px;
+    align-items: center;
+    margin: 0px 300px;
+}
+.row{
+    width: 100%;
+    height: 200px;
+    background-color: papayawhip;
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-around;
+}
+.heading{
+    font-weight: 500;
+    margin-top: 20px;
+}
+.sub-heading{
+    font-size: 10px;
+}
+.collections{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    float: left;
+    border: solid 1px;
+    justify-content: space-between;
+    margin: 100px 100px;
+    box-shadow: 10px 10px 5px papayawhip;
+    display: block;
+}
+.share{
+    text-align: center;
+}
+.sub-head{
+    text-align: center;
+}
+.logo1{
+    width: 100px;
+}
+.link{
+    text-decoration: none;
+     color: black;
+}
+.links:hover{
+    text-decoration: wavy;
+    /* text-indent: 10px; */
+    color: rgb(239, 11, 11);
+}
+.mainheading{
+    width: 100%;
+    height: 3000px;
+    margin-left: 0px;
+}
+.heads{
+    color: white;
+    background-color: rgb(239, 145, 161);
+    align-items: center;
+    float: left;
+    margin-left: 900px;
+}
+.mainheads{
+    text-align: center;
+}
+.imgtravel{
+    width: 80%;
+    height: 700px;
+    margin: 30px 190px;
+    align-items: center;
+}
+.definitions{
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+.journeyde{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px ;
+    align-items: center;
+    margin-left: 0px;
+    display: flex;
+    float: flex;
+    /* position: relative; */
+}
+.journey{
+    width: 50%;
+    height: 350px;
+    background-color: papayawhip;
+    margin: 500px 100px 0px;
+    text-align: center;
+    align-items: center;
+    float: flex;
+    position: absolute;
+    z-index: 2;
+}
+.journeydes{
+    width: 50%;
+    margin: 10px 750px;
+}
+.jimg{
+    width: 50%;
+    height: 500px;
+    align-items :center;
+    margin: 10px 0px 0px 0px;
+    position: absolute;
+    z-index: 1;
+}
+.jhead{
+    text-align: center;
+    margin-top: 60px;
+    display: block;
+    content: \A ;
+    white-space: pre;
+}
+.jquote{
+    color: rgb(18, 74, 18);
+    font-weight: 700;
+    line-height: 3;
+
+}
+.jdefinition{
+    font-weight: 700;
+    margin: 0px 250px;
+}
+.jlinks{
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 5;
+}
+.gallery{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    margin-top: 500px;
+    position: absolute;
+    /* margin-left: 100px; */
+}
+.gallery-items{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    float: left;
+    /* border: solid 1px; */
+    padding: 5px;
+    margin: 170px 40px ;
+    align-items: center;
+    text-align: center;
+    
+}
+.galex-head{
+    margin-left: 200px;
+}
+.galex-para{
+    margin-left: 200px;
+
+}
+.gal1{
+    width: 100%;
+    align-items: center;
+}
+.galfive{
+    height: 350px;
+        width: 500px;
+        margin-left: 110px;
+}
+.galfour{
+    height: 350px;
+        width: 500px;
+        margin-left: 110px;
+
+}
+.galthree{
+        height: 350px;
+        width: 500px;
+        margin-left: 110px;
+
+}
+.galtwo{
+    height: 350px;
+    width: 500px;
+    margin-left: 110px;
+
+}
+.galex{
+    height: 350px;
+    width: 500px;
+    margin-left: 110px;
+
+}
+.galone{
+    height: 350px;
+    width: 500px;
+    margin-left: 110px;
+
+}
+.end-head{
+    
+    margin-top: 0px;
+    text-align: center;
+}
+.head-end{
+    color: black;
+    align-items: center;
+    float: left;
+    margin-left: 870px;
+}
+.heading-end{
+    margin-top: 150px;
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    background-color: papayawhip;
+}
+.footer{
+    width: 100%;
+}
+.footer-content{
+    margin: 100px 0px;
+    width: 100%;
+    height: 350px;
+    background-color: papayawhip;
+    color: black;
+    text-align: right;
+    align-items: center;
+    float: left;
+    display: flex;
+}
+.footer-head{
+    margin: 0px 100px;
+    text-align: center;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+.details{
+    line-height: 70px;
+    text-decoration: underline;
+    font-size: 50px;
+    margin-left: 200px;
+}
+.footer-head2{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 200px;
+}
+.logoimg{
+    width: 500px;
+    align-items: center;
+    margin-left: 200px;
+}
+.details1{
+    font-size: 15px;
+    text-align: right;
+    margin-left: 300px;
+}
